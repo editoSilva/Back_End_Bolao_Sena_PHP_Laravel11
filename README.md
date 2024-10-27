@@ -1,4 +1,4 @@
-### Sejam bem vindos ao novo
+### Que Jesus possa abençoar a todos!
 
 ## Bolão Mega Sena Entre Amigos
 
