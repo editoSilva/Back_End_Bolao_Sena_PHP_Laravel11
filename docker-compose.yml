@@ -2,7 +2,7 @@ version: '3'
 
 services:
   php:
-    container_name: setup-php
+    container_name: mega-sena-php
     build:
       context: ./docker/php
       dockerfile: Dockerfile
@@ -12,69 +12,67 @@ services:
       - ./:/var/www
       - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
-      - setup-network
+      - mega-sena-network
 
   nginx:
-    container_name: setup-nginx
+    container_name: mega-sena-nginx
     build:
-      context: ./docker/nginx
-      dockerfile: Dockerfile
+        context: ./docker/nginx
+        dockerfile: Dockerfile
     restart: unless-stopped
     tty: true
     ports:
-      - '8080:80'
-      - '443:443'
+        - '8080:80'
+        - '443:443'
     volumes:
-      - ./:/var/www
-      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        - ./:/var/www
+        - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
     networks:
-      - setup-network
+        - mega-sena-network
 
   mysql:
-    container_name: setup-mysql
+    container_name: mega-sena-mysql
     image: mysql:8.0
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     tty: true
     volumes:
-      - setup-data:/var/lib/mysql/
+      - mega-sena-data:/var/lib/mysql/
       - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
     networks:
-      - setup-network
+      - mega-sena-network
     ports:
       - '3306:3306'
     environment:
-      MYSQL_DATABASE: gateway
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: gateway
-      MYSQL_PASSWORD: gateway2024
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+
 
   phpmyadmin:
-    container_name: setup-phpmyadmin
+    container_name: mega-sena-phpmyadmin
     image: phpmyadmin:5.2
     restart: always
     ports:
       - '8888:80'
     networks:
-      - setup-network
+      - mega-sena-network
     environment:
-      PMA_HOST: setup-mysql
+      PMA_HOST: mega-sena-mysql
     depends_on:
       - mysql
-
   redis:
-    container_name: setup-redis
+    container_name: mega-sena-redis
     build:
-      context: ./docker/redis
-      dockerfile: Dockerfile
+        context: ./docker/redis
+        dockerfile: Dockerfile
     ports:
-      - '6379:6379'
+    - '6379:6379'
+
 
 networks:
-  setup-network:
+  mega-sena-network:
     driver: bridge
 
 
 volumes:
-  setup-data:
+  mega-sena-data:
     driver: local

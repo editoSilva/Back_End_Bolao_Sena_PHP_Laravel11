@@ -1,4 +1,4 @@
-FROM php:8.2-fpm
+FROM php:8.3-fpm
 ENV NODE_MAJOR=18
 WORKDIR /var/www
 
@@ -21,22 +21,10 @@ RUN apt-get update && apt-get install -y \
     libonig-dev\
     nano
 
-# dependências recomendadas de desenvolvido para ambiente linux
-RUN apt-get update && apt-get install -y \
-zlib1g-dev \
-libzip-dev \
-unzip \
-libpng-dev \
-libpq-dev \
-libxml2-dev
-
-RUN docker-php-ext-install mysqli pdo pdo_mysql pdo_pgsql pgsql session xml
-
 
 # Install Nodejs
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - \
 && DEBIAN_FRONTEND=noninteractive apt-get install nodejs -yq
-
 
 
 RUN docker-php-ext-install zip pdo_mysql mbstring exif
