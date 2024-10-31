@@ -27,7 +27,7 @@ exit
 ## Aulas de todo o Projeto
 
 ### Aula 01 - (Bolão Mega Sena) - (Apresentação do Projeto).
-[Video](https://youtu.be/YXBKGb-GKZY)
+https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/small/filled/youtube.svg[Video](https://youtu.be/YXBKGb-GKZY)
 
 ### Aula 02 - (Start do projeto & e criação do GITHUB)
 [Video](https://youtu.be/a7bOFtfj78k)
