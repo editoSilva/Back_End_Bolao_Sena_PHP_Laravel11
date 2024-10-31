@@ -41,4 +41,8 @@ exit
 ### Aula 05 - (Configurando arquivo de rotas de API)
 [Video](https://youtu.be/vCWEu8A6_hw)
 
+### Aula 06 - (Commit da aplicação GITHUB)
+[Video](https://youtu.be/Wh4cdCZsKzA)
+
+
 
