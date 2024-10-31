@@ -27,7 +27,7 @@ exit
 ## Aulas de todo o Projeto
 
 ### Aula 01 - (Bolão Mega Sena) - (Apresentação do Projeto).
-<img src="https://github.com/editoSilva/Back_End_Bolao_Sena_PHP_Laravel11/blob/main/CLorant/readme-social-icons/raw/main/medium/filled/youtube.svg"> [Video](https://youtu.be/YXBKGb-GKZY)
+![small-light-youtube](small/light/youtube.svg) [Video](https://youtu.be/YXBKGb-GKZY)
 
 ### Aula 02 - (Start do projeto & e criação do GITHUB)
 [Video](https://youtu.be/a7bOFtfj78k)
