@@ -44,5 +44,8 @@ exit
 ### Aula 06 - (Commit da aplicação GITHUB)
 [Video](https://youtu.be/Wh4cdCZsKzA)
 
+### Aula 07 - (Consumindo API externas HTTPClient)
+[Video](https://youtu.be/-POmYo_ZiXU)
+
 
 
