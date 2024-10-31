@@ -25,7 +25,7 @@ exit
 ```
 -------------------------------------------------------------------------------------------
 ## Aulas de todo o Projeto
-
+![large-colored-youtube](large/colored/youtube.svg)
 ### Aula 01 - (Bolão Mega Sena) - (Apresentação do Projeto).
 ![small-light-youtube](small/light/youtube.svg) [Video](https://youtu.be/YXBKGb-GKZY)
 
