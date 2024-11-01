@@ -26,29 +26,28 @@ exit
 -------------------------------------------------------------------------------------------
 ## Aulas de todo o Projeto
 
-### Aula 01 - (Bolão Mega Sena) - (Apresentação do Projeto).
+Aula 01 - (Bolão Mega Sena) - (Apresentação do Projeto).
 [Video](https://youtu.be/YXBKGb-GKZY)
 
-### Aula 02 - (Start do projeto & e criação do GITHUB)
+Aula 02 - (Start do projeto & e criação do GITHUB)
 [Video](https://youtu.be/a7bOFtfj78k)
 
-### Aula 03 - (Configuração do Docker)
+Aula 03 - (Configuração do Docker)
 [Video](https://youtu.be/RtUaWuIu5WQ)
 
-### Aula 04 - (Testando Configurações)
+Aula 04 - (Testando Configurações)
 [Video](https://youtu.be/f4O0si439ho)
 
-### Aula 05 - (Configurando arquivo de rotas de API)
+Aula 05 - (Configurando arquivo de rotas de API)
 [Video](https://youtu.be/vCWEu8A6_hw)
 
-### Aula 06 - (Commit da aplicação GITHUB)
+Aula 06 - (Commit da aplicação GITHUB)
 [Video](https://youtu.be/Wh4cdCZsKzA)
 
-### Aula 07 - (Consumindo API externas HTTPClient)
+Aula 07 - (Consumindo API externas HTTPClient)
 [Video](https://youtu.be/-POmYo_ZiXU)
 
-
-### Aula 08 -  (Arquitetura do Projeto - Multi-tenancy)
+Aula 08 -  (Arquitetura do Projeto - Multi-tenancy)
 [Video](https://youtu.be/D66qM5xG0dg)
 
 
