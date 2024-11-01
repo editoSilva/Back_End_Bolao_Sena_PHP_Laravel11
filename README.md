@@ -48,4 +48,10 @@ exit
 [Video](https://youtu.be/-POmYo_ZiXU)
 
 
+### Aula 08 -  (Arquitetura do Projeto - Multi-tenancy)
+[Video](https://youtu.be/D66qM5xG0dg)
+
+
+
+
 
